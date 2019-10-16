@@ -26,6 +26,7 @@ def assign_rooms
     end
     room += 1
   end
+  participants_room
 end
 
 def printer
