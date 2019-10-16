@@ -19,7 +19,7 @@ end
 def assign_rooms(participants)
   participants_room = []
   
-  
+  participants.each_with_index
   participants_room
 end
 
