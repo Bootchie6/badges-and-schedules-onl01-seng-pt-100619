@@ -23,8 +23,8 @@ def assign_rooms(participants)
   while room < 8 do
     participants.each do |participants|
       participants_room << "Hello, #{participants}! You'll be assigned to room #{room}"
+      room += 1
     end
-    room += 1
   end
   participants_room
 end
