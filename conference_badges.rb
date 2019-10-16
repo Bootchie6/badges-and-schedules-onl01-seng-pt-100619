@@ -27,5 +27,6 @@ def assign_rooms(participants)
 end
 
 def printer
+  index = 0
   
 end
