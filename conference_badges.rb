@@ -11,17 +11,18 @@ def batch_badge_creator(participants)
  
   participants.each do |participants|
     participants_badge << badge_maker(participants)
- 
   end
+  
   participants_badge
 end
 
 def assign_rooms(participants)
   participants_room = []
   
-  participants.each_with_index do |participants|
-    participants_room << "Hello, #{participants}! You'll be assigned to room "
+  participants.each_with_index do |participants, index|
+    participants_room << "Hello, #{participants}! You'll be assigned to room #{index + 1}"
   end
+  
   participants_room
 end
 
