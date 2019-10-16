@@ -20,7 +20,7 @@ def assign_rooms(participants)
   participants_room = []
   
   participants.each_with_index do |participants, index|
-    participants_room << "Hello, #{participants}! You'll be assigned to room #{index + 1}"
+    participants_room << "Hello, #{participants}! You'll be assigned to room #{index + 1}!"
   end
   
   participants_room
